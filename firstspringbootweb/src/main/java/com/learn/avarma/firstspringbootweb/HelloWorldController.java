@@ -14,6 +14,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloWorldController {
 	@RequestMapping("/")
 	public String HelloWorld(){
-		return "This is my first Hello World Spring Boot Class";
+		return "This is my first Hello World Spring Boot Class - Thanks";
 	}
 }
